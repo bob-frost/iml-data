@@ -9,6 +9,7 @@ class DataParser
       zone_lookup: zone_lookup,
       courrier_delivery_prices: courrier_delivery_prices,
       pickup_point_delivery_prices: pickup_point_delivery_prices,
+      distance_from_city_prices: distance_from_city_prices,
       region_delivery_types: region_delivery_types
     }.to_json
   end
@@ -33,6 +34,10 @@ class DataParser
     parse_delivery_prices File.expand_path('../data/pickup_point_delivery_prices.yml', __FILE__)
   end
 
+  def distance_from_city_prices
+    YAML.load_file File.expand_path('../data/distance_from_city_prices.yml', __FILE__)
+  end
+  
   def region_delivery_types
     result = {}
     data = YAML.load_file File.expand_path('../data/region_delivery_types.yml', __FILE__)
