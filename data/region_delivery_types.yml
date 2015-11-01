@@ -1,7 +1,7 @@
 types:
   - courrier
   - pickup_point
-cities:
+regions:
   БРЯНСК: "+ +"
   ВЛАДИМИР: "+ -"
   ВОЛОГДА: "+ +"
