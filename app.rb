@@ -20,11 +20,7 @@ class DataParser
     data = YAML.load_file File.expand_path('../data/zone_lookup.yml', __FILE__)
     regions = data.keys
     data.each do |key, value|
-      result[key] = {}
-      zones = value.split(' ').map{ |v| v == '~' ? nil : v }
-      regions.each_with_index do |region, i|
-        result[key][region] = zones[i]
-      end
+      result[key] = value.split(' ').map{ |v| v == '~' ? nil : v }
     end
     result
   end
