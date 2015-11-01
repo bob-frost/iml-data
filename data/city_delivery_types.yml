@@ -1,0 +1,44 @@
+types:
+  - courrier
+  - pickup_point
+cities:
+  БРЯНСК: "+ +"
+  ВЛАДИМИР: "+ -"
+  ВОЛОГДА: "+ +"
+  ВОРОНЕЖ: "+ +"
+  ЕКАТЕРИНБУРГ: "+ +"
+  ИВАНОВО: "+ +"
+  КАЗАНЬ: "+ +"
+  КАЛУГА: "+ +"
+  КОСТРОМА: "+ -"
+  КРАСНОДАР: "- +"
+  КУРСК: "+ -"
+  СМОЛЕНСК: "+ +"
+  ЛИПЕЦК: "+ +" # information not available. Set all types to true
+  МОСКВА: "+ +"
+  НИЖНИЙ НОВГОРОД: "+ +"
+  НОВОСИБИРСК: "- +"
+  ОМСК: "- +"
+  ОРЕЛ: "+ +"
+  ПЕРМЬ: "- +"
+  РОСТОВ-НА-ДОНУ: "+ +"
+  РЯЗАНЬ: "+ +"
+  САМАРА: "- +"
+  САНКТ-ПЕТЕРБУРГ: "+ +"
+  САРАТОВ: "+ +" # information not available. Set all types to true
+  ТВЕРЬ: "+ +"
+  ТОЛЬЯТТИ: "+ +" # information not available. Set all types to true
+  ТУЛА: "+ +"
+  ТЮМЕНЬ: "+ +"
+  УФА: "+ +" # information not available. Set all types to true
+  ЧЕЛЯБИНСК: "+ +"
+  ЯРОСЛАВЛЬ: "+ +"
+  ВЕЛИКИЙ НОВГОРОД: "+ +"
+  ЧЕРЕПОВЕЦ: "+ +" # information not available. Set all types to true
+  ВЫБОРГ: "+ +" # information not available. Set all types to true
+  ПСКОВ: "+ +"
+  КИРОВ: "+ +"
+  НОВОРОССИЙСК: "+ +"
+  НОРИЛЬСК: "+ +"
+  МИНСК: "- +"
+  ВОЛГОГРАД: "- +"
