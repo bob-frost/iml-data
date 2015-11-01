@@ -1,0 +1,7 @@
+default:
+  cash: 1.9
+  card: 2.5
+cities:
+  МИНСК:
+    cash: 
+    card: 2.9
